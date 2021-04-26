@@ -3,4 +3,8 @@
 *.lock
 *.config
 
+
 packages/
+.vs/
+bin/
+obj/
