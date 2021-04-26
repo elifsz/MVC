@@ -2,3 +2,5 @@
 *.log
 *.lock
 *.config
+
+packages/
