@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{39C0ED9E-B6B0-45C7-A300-8993E16DCCA6}</ProjectGuid>
+    <ProjectGuid>{F601F6A3-CBC2-4321-891D-2B49781247E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataAccessLayer</RootNamespace>
@@ -58,13 +58,13 @@
     <Compile Include="Abstract\IHeadingDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
-    <Compile Include="Conctrete\Context.cs" />
-    <Compile Include="Conctrete\Repositories\CategoryRepository.cs" />
-    <Compile Include="Conctrete\Repositories\GenericRepository.cs" />
-    <Compile Include="Conctrete\Repositories\WriterRepository.cs" />
-    <Compile Include="Migrations\202104161801373_mig1.cs" />
-    <Compile Include="Migrations\202104161801373_mig1.designer.cs">
-      <DependentUpon>202104161801373_mig1.cs</DependentUpon>
+    <Compile Include="Concrete\Context.cs" />
+    <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
+    <Compile Include="Concrete\Repositories\GenericRepository.cs" />
+    <Compile Include="Concrete\Repositories\WriterRepository.cs" />
+    <Compile Include="Migrations\202104281742332_mig1.cs" />
+    <Compile Include="Migrations\202104281742332_mig1.designer.cs">
+      <DependentUpon>202104281742332_mig1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,15 +75,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
-      <Project>{1d21506a-3bfd-4dc5-95cb-fbf217b8db7a}</Project>
+      <Project>{7dc15db2-c01d-4fe3-b30d-d80ed2c7ed60}</Project>
       <Name>EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202104161801373_mig1.resx">
-      <DependentUpon>202104161801373_mig1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202104281742332_mig1.resx">
+      <DependentUpon>202104281742332_mig1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

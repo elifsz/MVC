@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A513A25-85D3-486B-ACF8-F90983BB185A}</ProjectGuid>
+    <ProjectGuid>{698B7D42-6CD5-4BB8-AF72-92EEBB26FB30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BusinessLayer</RootNamespace>
@@ -56,11 +56,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
-      <Project>{39c0ed9e-b6b0-45c7-a300-8993e16dcca6}</Project>
+      <Project>{f601f6a3-cbc2-4321-891d-2b49781247e7}</Project>
       <Name>DataAccessLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
-      <Project>{1d21506a-3bfd-4dc5-95cb-fbf217b8db7a}</Project>
+      <Project>{7dc15db2-c01d-4fe3-b30d-d80ed2c7ed60}</Project>
       <Name>EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>

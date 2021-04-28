@@ -26,11 +26,5 @@ namespace YazanSozluk.Controllers
 
             return View();
         }
-
-        public ActionResult Test()
-        {
-            return View();
-            //geriye sayfa döndürmek -> view
-        }
     }
 }

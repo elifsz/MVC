@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
+    //asıl gerekli olan bu
     public interface IRepository<T>
     {
         //CRUD
