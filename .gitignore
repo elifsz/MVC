@@ -1,0 +1,10 @@
+./node_modules
+*.log
+*.lock
+*.config
+
+
+packages/
+.vs/
+bin/
+obj/
