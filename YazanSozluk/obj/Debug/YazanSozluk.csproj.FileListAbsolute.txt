@@ -169,3 +169,5 @@ D:\SPRING 3\MVC\YazanSozluk\bin\EntityLayer.pdb
 D:\SPRING 3\MVC\YazanSozluk\bin\EntityLayer.dll.config
 D:\SPRING 3\MVC\YazanSozluk\bin\EntityFramework.xml
 D:\SPRING 3\MVC\YazanSozluk\bin\EntityFramework.SqlServer.xml
+D:\SPRING 3\MVC\YazanSozluk\bin\FluentValidation.dll
+D:\SPRING 3\MVC\YazanSozluk\bin\FluentValidation.xml

@@ -16,3 +16,5 @@ D:\SPRING 3\MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.c
 D:\SPRING 3\MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 D:\SPRING 3\MVC\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\SPRING 3\MVC\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\SPRING 3\MVC\BusinessLayer\bin\Debug\FluentValidation.dll
+D:\SPRING 3\MVC\BusinessLayer\bin\Debug\FluentValidation.xml

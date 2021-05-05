@@ -14,6 +14,7 @@ namespace BusinessLayer.Concrete
     {
         ICategoryDal _categorydal;
 
+
         public CategoryManager(ICategoryDal categorydal)
         {
             _categorydal = categorydal;
@@ -23,6 +24,11 @@ namespace BusinessLayer.Concrete
         {
             return _categorydal.List();
             
+        }
+
+        public void CategoryAdd(Category category)
+        {
+            _categorydal.Insert(category);
         }
     }
 }
