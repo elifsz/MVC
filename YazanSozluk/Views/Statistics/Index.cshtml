@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+<div class="col-md-6">
+    <div class="info-box">
+        <div class="info-box-content">
+            <span class="info-box-text">Toplam Kategori Sayısı</span>
+            <span class="info-box-number">@ViewBag.totalCategory</span>
+        </div>
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box">
+        <div class="info-box-content">
+            <span class="info-box-text">Yazılım Kategorisine Ait Başlık Sayısı</span>
+            <span class="info-box-number">@ViewBag.totalSoftware</span>
+        </div>
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box">
+        <div class="info-box-content">
+            <span class="info-box-text">Yazar Adında "a" Harfi Geçen Yazar Sayısı</span>
+            <span class="info-box-number">@ViewBag.totalA</span>
+        </div>
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box">
+        <div class="info-box-content">
+            <span class="info-box-text">En Fazla Başlığa Sahip Kategori Sayısı</span>
+            <span class="info-box-number">@ViewBag.maxCategory</span>
+        </div>
+    </div>
+
+</div>
+<div class="col-md-6">
+    <div class="info-box">
+        <div class="info-box-content">
+            <span class="info-box-text">Kategori Durumu İçin True-False Farkı</span>
+            <span class="info-box-number">@ViewBag.differenceStatus</span>
+        </div>
+    </div>
+
+</div>
+
