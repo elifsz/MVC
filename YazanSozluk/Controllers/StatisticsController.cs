@@ -33,6 +33,7 @@ namespace YazanSozluk.Controllers
             var differenceStatus = Math.Abs(context.Categories.Where(x => x.CategoryStatus == true).Count() -
                 context.Categories.Where(x => x.CategoryStatus == false).Count());
             ViewBag.differenceStatus = differenceStatus;
+
             return View();
         }
     }
