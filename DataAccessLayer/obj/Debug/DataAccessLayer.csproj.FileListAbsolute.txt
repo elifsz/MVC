@@ -15,3 +15,4 @@ D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.wig_writer_edit.resources
