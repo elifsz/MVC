@@ -76,6 +76,18 @@
     <Compile Include="Migrations\202105161644507_wig_writer_edit.designer.cs">
       <DependentUpon>202105161644507_wig_writer_edit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105291354064_mig_writertitle_add.cs" />
+    <Compile Include="Migrations\202105291354064_mig_writertitle_add.designer.cs">
+      <DependentUpon>202105291354064_mig_writertitle_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105291635375_image_size_change.cs" />
+    <Compile Include="Migrations\202105291635375_image_size_change.designer.cs">
+      <DependentUpon>202105291635375_image_size_change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105291701395_add_writer_status.cs" />
+    <Compile Include="Migrations\202105291701395_add_writer_status.designer.cs">
+      <DependentUpon>202105291701395_add_writer_status.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -95,6 +107,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202105161644507_wig_writer_edit.resx">
       <DependentUpon>202105161644507_wig_writer_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105291354064_mig_writertitle_add.resx">
+      <DependentUpon>202105291354064_mig_writertitle_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105291635375_image_size_change.resx">
+      <DependentUpon>202105291635375_image_size_change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105291701395_add_writer_status.resx">
+      <DependentUpon>202105291701395_add_writer_status.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

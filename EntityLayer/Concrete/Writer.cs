@@ -18,7 +18,7 @@ namespace EntityLayer.Concrete
         [StringLength(50)]
         public String WriterSurname { get; set; }
 
-        [StringLength(100)]
+        [StringLength(250)]
         public String WriterImage { get; set; }
 
         [StringLength(200)]
@@ -27,8 +27,13 @@ namespace EntityLayer.Concrete
         [StringLength(200)]
         public String WriterPassword { get; set; }
 
+        [StringLength(50)]
+        public String WriterTitle { get; set; }
+
         [StringLength(200)]
         public String WriterAbout { get; set; }
+
+        public bool WriterStatus { get; set; }
 
         public ICollection<Heading> Headings { get; set; }
 
