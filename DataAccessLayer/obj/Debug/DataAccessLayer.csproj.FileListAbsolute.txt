@@ -19,3 +19,5 @@ D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.wig_writer_
 D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
 D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.image_size_change.resources
 D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_writer_status.resources
+D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_content_status.resources
+D:\SPRING 3\MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_heading_status.resources
