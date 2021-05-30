@@ -17,7 +17,12 @@ namespace YazanSozluk.Controllers
         public ActionResult Index()
         {
             var contactvalues = cm.GetList();
-            return View();
+            return View(contactvalues);
+        }
+        public ActionResult GetContactDetails(int id)
+        {
+            var contactValues = cm.GetByID(id);
+            return View(contactValues);
         }
     }
 }
